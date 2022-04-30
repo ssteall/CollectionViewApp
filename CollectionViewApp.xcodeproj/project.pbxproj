@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		BC32B27C281B43F800EB2101 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC32B27B281B43F800EB2101 /* AppDelegate.swift */; };
 		BC32B27E281B43F800EB2101 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC32B27D281B43F800EB2101 /* SceneDelegate.swift */; };
-		BC32B280281B43F800EB2101 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC32B27F281B43F800EB2101 /* ViewController.swift */; };
 		BC32B283281B43F800EB2101 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC32B281281B43F800EB2101 /* Main.storyboard */; };
 		BC32B285281B43F800EB2101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC32B284281B43F800EB2101 /* Assets.xcassets */; };
 		BC32B288281B43F800EB2101 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC32B286281B43F800EB2101 /* LaunchScreen.storyboard */; };
+		BC32B290281B451700EB2101 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC32B28F281B451700EB2101 /* CollectionViewController.swift */; };
+		BC32B292281B483800EB2101 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC32B291281B483800EB2101 /* PhotoCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BC32B278281B43F800EB2101 /* CollectionViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC32B27B281B43F800EB2101 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC32B27D281B43F800EB2101 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BC32B27F281B43F800EB2101 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BC32B282281B43F800EB2101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC32B284281B43F800EB2101 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC32B287281B43F800EB2101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC32B289281B43F800EB2101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC32B28F281B451700EB2101 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		BC32B291281B483800EB2101 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				BC32B27B281B43F800EB2101 /* AppDelegate.swift */,
 				BC32B27D281B43F800EB2101 /* SceneDelegate.swift */,
-				BC32B27F281B43F800EB2101 /* ViewController.swift */,
 				BC32B281281B43F800EB2101 /* Main.storyboard */,
+				BC32B28F281B451700EB2101 /* CollectionViewController.swift */,
+				BC32B291281B483800EB2101 /* PhotoCollectionViewCell.swift */,
 				BC32B284281B43F800EB2101 /* Assets.xcassets */,
 				BC32B286281B43F800EB2101 /* LaunchScreen.storyboard */,
 				BC32B289281B43F800EB2101 /* Info.plist */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC32B280281B43F800EB2101 /* ViewController.swift in Sources */,
+				BC32B290281B451700EB2101 /* CollectionViewController.swift in Sources */,
+				BC32B292281B483800EB2101 /* PhotoCollectionViewCell.swift in Sources */,
 				BC32B27C281B43F800EB2101 /* AppDelegate.swift in Sources */,
 				BC32B27E281B43F800EB2101 /* SceneDelegate.swift in Sources */,
 			);
